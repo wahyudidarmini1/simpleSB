@@ -7,7 +7,7 @@ cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='Es0tC3qZpJ9yAf2p9fze.4uWnRTJU51yT+/CjXTyHBG.9t2i0AJNoDGSG/wYv53WOj5LDKx4zt8hmcWepI+36T4=')
+ki = LineClient(authToken='EsK4UFgbe4QlW9LcpmKf.0Gxc/M3RVqR4nYkPcDjtZW.BHczquHxsjUkKhv7Q30yzzJtzNpcZMgdmxRzgjD/mtg=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -29,10 +29,10 @@ sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = LineCall(cl)
-creator = ["u02aea92a3d7e44f587e7a91141e78b59"]
-owner = ["u02aea92a3d7e44f587e7a91141e78b59"]
-admin = ["u4af710b4888a15425686fa19364c4b2c"]
-staff = ["u4af710b4888a15425686fa19364c4b2c"]
+creator = ["u6b34b703cbc5fc83cd1e5b6832a05352"]
+owner = ["u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin = ["ud205c2fa6debbd0af83722a909d253cf"]
+staff = ["ud205c2fa6debbd0af83722a909d253cf"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
